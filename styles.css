@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background: #505050;
+}
+
+.patrick-hand-regular {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Title */
+.title {
+  color: #EB4040;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 37px;
+  left: 10px;
+  font-size: 20px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 50px;
+  color: #0000007e;
+}
+.name {
+  position: fixed;
+  bottom: 15px;
+  left: 10px;
+  font-size: 20px;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 50px;
+  color: #0000007e;
+}
