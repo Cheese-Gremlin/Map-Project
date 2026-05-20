@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📍</text></svg>">
-  <title>A Red Thread</title>
+  <title>A Red Path</title>
 
   <!-- Describe your page — shows up in search results and browser tabs -->
   <meta name="description" content="A short description of your page goes here.">
@@ -109,7 +109,7 @@
 </head>
 <body>
   <header>
-    <h1 class="title">a red thread</h1>
+    <h1 class="title">A Red Path</h1>
   </header>
 
 
@@ -117,19 +117,39 @@
 
   <div id="arrow1" class="img-item static">
     <img
-      src="images/arrow-1.png"
+      src="Images/arrow-1.png"
       alt="a red arrow pointing up"
     >
   </div>
   
-  <div id="star" class="img-item static">
-    <img
-      src="images/star.png"
-      alt="a red star"
+  <div
+      id="star"
+      class="img-item clickable"
+      data-href="movable-map.html"
+      role="link"
+      tabindex="0"
+      aria-label="Go to map page"
     >
+      <img
+        src="Images/star.png"
+        alt="drawing of a red star. when clicked on redirects user to 'moveable map page'"
+      >
   </div>
-
-
+  
+  <!-- CLICKABLE IMAGE EXAMPLE WHICH REDIRECTS TO DIFFERENT PAGE WHEN CLICKED ON - taken from humble abode project -->
+    <!-- <div
+      id="recordPlayer"
+      class="img-item clickable"
+      data-href="music.html"
+      role="link"
+      tabindex="0"
+      aria-label="Go to music page"
+    >
+      <img
+        src="home_page-images/record-player.png"
+        alt="drawing of a record player. when clicked on redirects user to 'music page'"
+      >
+    </div> -->
 
   <footer>
     <div class="copyright">  &copy; <span id="year"></span> </div>
