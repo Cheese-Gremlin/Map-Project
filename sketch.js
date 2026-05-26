@@ -81,8 +81,14 @@ function draw() {
     strokeWeight(5);
     //image (MapTemplate, (width/2 - ((width*0.89)/2)), (height/2 - ((width*0.5)/2)), width*0.89, width*0.5)
 
+
+let MapImageWidth = width*0.89;
+let MapImageHeight = width*0.5;
+let MapImageX = (width/2 - ((width*0.89)/2));
+let MapImageY = (height/2 - ((width*0.5)/2));
     if (showSectionOne) {
-        drawSectionOne((width/2 - ((width*0.89)/2)), (height/2 - ((width*0.5)/2)), width*0.89, width*0.5);
+
+        drawSectionOne(MapImageX, MapImageY, width*0.89, width*0.5);
     }
     if (showSectionTwo) {
         drawSectionTwo();
@@ -100,17 +106,28 @@ function draw() {
     if (showImageOne){
         drawImageOne();
     }
+
+    checkMouse()
 }
 
+function checkMouse(){
+    if (showSectionOne && mouseX > (width/2 - ((width/2.9)/2)) && mouseX <(width/2 - ((width/3.5)/2)) && mouseY > (height/2 +(width/35)) && mouseY <(height/2 +(width/17))){
+        print('hovering')
+    }
+
+
+}
 function mouseClicked () {
 //section one  
+
+// are. we sohwing and image right now ? 
     // section one to section two
     if (showSectionOne && mouseX > (width/2 + ((width*0.125)/2)) && mouseX <(width/2 + ((width*0.2)/2)) && mouseY > (height/2 -(width/4.1)) && mouseY <(height/2 -(width/4.9)) ){
         showSectionOne = false
         showSectionTwo = true
     }
     //left star on
-    else if (showImageOne === false && showSectionOne && mouseX > (width/2 - ((width/2.9)/2)) && mouseX <(width/2 - ((width/3.5)/2)) && mouseY > (height/2 +(width/35)) && mouseY <(height/2 +(width/17)) ){
+    if (showImageOne === false && showSectionOne && mouseX > (width/2 - ((width/2.9)/2)) && mouseX <(width/2 - ((width/3.5)/2)) && mouseY > (height/2 +(width/35)) && mouseY <(height/2 +(width/17)) ){
         showImageOne = true
     }
     //left star of
@@ -119,15 +136,17 @@ function mouseClicked () {
     }
 //section two
     //section two to section one
-    else if (showSectionTwo && mouseX > (width/2 + ((width*0.32)/2)) && mouseX <(width/2 + ((width*0.4)/2)) && mouseY > (height/2 +(width/5.2)) && mouseY <(height/2 +(width/4.2)) ){
+    if (showSectionTwo && mouseX > (width/2 + ((width*0.32)/2)) && mouseX <(width/2 + ((width*0.4)/2)) && mouseY > (height/2 +(width/5.2)) && mouseY <(height/2 +(width/4.2)) ){
         showSectionOne = true
         showSectionTwo = false
     }
 
+
 }
 
-function drawSectionOne(){
-    image (SectionOneImg, (width/2 - ((width*0.89)/2)), (height/2 - ((width*0.5)/2)), width*0.89, width*0.5)
+function drawSectionOne(x, y, w , h){
+   // image (SectionOneImg, (width/2 - ((width*0.89)/2)), (height/2 - ((width*0.5)/2)), width*0.89, width*0.5)
+       image (SectionOneImg,x,y,w,h)
     //area points
     //point ((width/2 - ((width/2.9)/2)), (height/2 +(width/35))) //top left
     //point ((width/2 - ((width/3.5)/2)), (height/2 +(width/17))) //bottom right
