@@ -1,0 +1,258 @@
+{
+"StarOne" : [
+    {
+        "RealImage": "RealStar1",
+        "AiImage": "AiStar1",
+        "RealText": {
+            "FStop" : "f/7.1",
+            "ExposureTime" : "1/160 sec.",
+            "ISOSpeed" :"ISO-100",
+            "FocalLength" : "50 mm",
+            "Location" : "NA"
+            },
+        "AIText" : "can you generate an image of what it would look like to stand at this location and look at the church with the red roof: -41.304651, 174.763453",
+        
+        "RealImageLeft" : true,
+        "UpRight" : false
+
+    }
+    ],
+"StarTwo" : [
+    {
+        "RealImage": "RealStar2",
+        "AiImage": "AiStar2",
+        "RealText": {
+            "FStop" : "f/5",
+            "ExposureTime" : "1/60 sec.",
+            "ISOSpeed" :"ISO-250",
+            "FocalLength" : "50 mm",
+            "Location" : "NA"
+            },
+        "AIText" : {
+            "Prompt" : "can you make an image of a green bush with a singular red berry"
+        },
+        "RealImageLeft" : true,
+        "UpRight" : false
+    }
+],
+"StarThree" : [
+    {
+        "RealImage": "RealStar3",
+        "AiImage": false,
+        "RealText": {
+            "FStop" : "f/5.6",
+            "ExposureTime" : "1/100 sec.",
+            "ISOSpeed" :"ISO-100",
+            "FocalLength" : "50 mm",
+            "Location" : "NA"
+            },
+        "AIText" : false,
+        "RealImageLeft" : true,
+        "UpRight" : false
+    }
+],
+"StarFour" : [
+    {
+        "RealImage": "RealStar4",
+        "AiImage": "AiStar4",
+        "RealText": {
+            "FStop" : "f/10",
+            "ExposureTime" : "1/160 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "27 mm",
+            "Location" : "NA"
+            },
+        "AIText" : {
+            "Prompt" : "Please make an image of a red car driving through a crossing in a wellington suburb. It is overcast and the image should look like it was taken using the following camera settings: Camera model: Canon EOS 760D F-stop: f/10 Exposure Time: 1/160 sec Iso: 200 Focal length: 27mm No flash"
+        },
+        "RealImageLeft" : false,
+        "UpRight" : false
+    }
+],
+"StarFive" : [
+    {
+        "RealImage": "RealStar5",
+        "AiImage": false,
+        "RealText": {
+            "FStop" : "f/9",
+            "ExposureTime" : "1/20 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "19 mm",
+            "Location" : "NA"
+            },
+        "AIText" : false,
+        "RealImageLeft" : true,
+        "UpRight" : true
+    }
+],
+"StarSix" : [
+    {
+        "RealImage": "RealStar6",
+        "AiImage": "AiStar6",
+        "RealText": {
+            "FStop" : "f/9",
+            "ExposureTime" : "1/50 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "35 mm",
+            "Location" : "NA"
+            },
+        "AIText" : {
+            "Prompt" : "Please make an image of a black wall with the house number 52 in read. The wall is from a small house in a new zealand suburb."
+        },
+        "RealImageLeft" : true,
+        "UpRight" : true
+    }
+],
+"StarSeven" : [
+    {
+        "RealImage": "RealStar7",
+        "AiImage": false,
+        "RealText": {
+            "FStop" : "f/9",
+            "ExposureTime" : "1/50 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "18 mm",
+            "Location" : "NA"
+            },
+        "AIText" : false,
+        "RealImageLeft" : true,
+        "UpRight" : false
+    }
+],
+"StarEight" : [
+    {
+        "RealImage": "RealStar8",
+        "AiImage": "AiStar8",
+        "RealText": {
+            "FStop" : "f/9",
+            "ExposureTime" : "1/125 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "50 mm",
+            "Location" : "NA"
+            },
+        "AIText" : {
+            "Prompt" : "please make an image of an old new zealand fire station."
+        },
+        "RealImageLeft" : false,
+        "UpRight" : false
+    }
+],
+"StarNine" : [
+    {
+        "RealImage": "RealStar9",
+        "AiImage": "AiStar9",
+        "RealText": {
+            "FStop" : "f/8",
+            "ExposureTime" : "1/50 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "62 mm",
+            "Location" : "NA"
+            },
+        "AIText" : {
+            "Prompt" : "Please make an image of a close up of a red Pohutukawa flower on a tree. The image is very detailed and focuses on the flower of a Pohutukawa tree. The image also shows some leaves, branches and closed Pohutukawa blossoms."
+        },
+        "RealImageLeft" : false,
+        "UpRight" : false
+    }
+],
+"StarTen" : [
+    {
+        "RealImage": "RealStar10",
+        "AiImage": false,
+        "RealText": {
+            "FStop" : "f/8",
+            "ExposureTime" : "1/50 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "56 mm",
+            "Location" : "NA"
+            },
+        "AIText" : false,
+        "RealImageLeft" : true,
+        "UpRight" : true
+    }
+],
+"StarEleven" : [
+    {
+        "RealImage": "RealStar11",
+        "AiImage": false,
+        "RealText": {
+            "FStop" : "f/8",
+            "ExposureTime" : "1/80 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "32 mm",
+            "Location" : "NA"
+            },
+        "AIText" : false,
+        "RealImageLeft" : true,
+        "UpRight" : false
+    }
+],
+"StarTwelve" : [
+    {
+        "RealImage": "RealStar12",
+        "AiImage": "AiStar12",
+        "RealText": {
+            "FStop" : "f/8",
+            "ExposureTime" : "1/125 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "35 mm",
+            "Location" : "NA"
+            },
+        "AIText" : {
+            "Prompt" : "Please make an image of a fallen over new zealand road cone. The cone a darker reddish orange and some of the reflective tape is disintegrating. Its lying on the side of a worn down patch of asphalt which has some small bits of moss growing on it. The main focus of the image is the cone which is pointing to the top of the image"
+        },
+        "RealImageLeft" : true,
+        "UpRight" : true
+    }
+],
+"StarThirteen" : [
+    {
+        "RealImage": "RealStar13",
+        "AiImage": false,
+        "RealText": {
+            "FStop" : "f/8",
+            "ExposureTime" : "1/640 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "119 mm",
+            "Location" : "NA"
+            },
+        "AIText" : false,
+        "RealImageLeft" : true,
+        "UpRight" : false
+    }
+],
+"StarFourteen" : [
+    {
+        "RealImage": "RealStar14",
+        "AiImage": false,
+        "RealText": {
+            "FStop" : "f/8",
+            "ExposureTime" : "1/50 sec.",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "113 mm",
+            "Location" : "NA"
+            },
+        "AIText" : false,
+        "RealImageLeft" : true,
+        "UpRight" : false
+    }
+],
+"StarFifteen" : [
+    {
+        "RealImage": "RealStar15",
+        "AiImage": "AiStar15",
+        "RealText": {
+            "FStop" : "f/8",
+            "ExposureTime" : "1/100",
+            "ISOSpeed" :"ISO-200",
+            "FocalLength" : "67 mm",
+            "Location" : "NA"
+            },
+        "AIText" : {
+            "Prompt" : "please make an image of a 'dont walk when red' sign on a yellow traffic light post. make it zoomed in"
+        },
+        "RealImageLeft" : true,
+        "UpRight" : false
+    }
+]
+}
